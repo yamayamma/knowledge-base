@@ -1,6 +1,6 @@
 {
-  "name": "@jackyzha0/quartz",
-  "description": "🌱 publish your digital garden and notes as a website",
+  "name": "my-notes",
+  "description": "Quartz knowledge base template for Obsidian + GitHub Pages",
   "private": true,
   "version": "4.5.2",
   "type": "module",
@@ -17,7 +17,9 @@
     "check": "tsc --noEmit && npx prettier . --check",
     "format": "npx prettier . --write",
     "test": "tsx --test",
-    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1"
+    "profile": "0x -D prof ./quartz/bootstrap-cli.mjs build --concurrency=1",
+    "build": "npx quartz build -d content --output public",
+    "serve": "npx quartz build --serve -d content"
   },
   "engines": {
     "npm": ">=10.9.2",
