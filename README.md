@@ -15,3 +15,7 @@ Quartz is a set of tools that helps you publish your [digital garden](https://jz
     <img src="https://cdn.jsdelivr.net/gh/jackyzha0/jackyzha0/sponsorkit/sponsors.svg" />
   </a>
 </p>
+
+## Personal Repository Cleanup
+
+This repository has been slimmed down for personal use by removing upstream project-maintenance files (for example, `.github/` automation/community files) and the local `docs/` documentation source tree.
