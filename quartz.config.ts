@@ -9,7 +9,7 @@ const config: QuartzConfig = {
     enablePopovers: true,
     analytics: null,
     locale: "ja-JP",
-    baseUrl: "your-username.github.io/my-notes",
+    baseUrl: "yamayamma.github.io/my-notes",
     ignorePatterns: ["private", "templates", "drafts", ".obsidian"],
     defaultDateType: "modified",
     theme: {
